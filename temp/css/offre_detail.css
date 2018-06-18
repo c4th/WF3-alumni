@@ -1,0 +1,346 @@
+
+/*** PAGE D'OFFRE ***/
+
+#offre_detail {
+	width:100%;
+}
+
+#offre_detail div{
+	float:left;
+}
+
+/*COLONNE DE GAUCHE*/
+
+#colonne_gauche_offre {
+	width:280px;
+}
+
+.information_offre {
+	background: linear-gradient(180deg, #ecf0f1, #fff);
+	border-top-left-radius: 10%;
+	width:90%;
+}
+
+#colonne_gauche_offre h1 {
+	font-size:22px;
+	font-variant:small-caps;
+	font-weight:bold;
+	padding-left:17px;
+	padding-top:10px;
+	text-indent:107px;	
+}
+
+#colonne_gauche_offre h1::after {
+	content:"";
+	border-bottom:1px dotted #222;
+	display:block;
+	margin-top:8px;
+	width:90%;
+}
+
+.titre_info_offre {
+	color:#66b5c6;
+	font-size:16px;
+	padding-top:10px;
+	padding-left:16px;
+}
+
+.info_paragraphe {
+	font-size:14px;
+	padding-left:20px;
+	margin-top:4px;
+}
+
+#info_entreprise #info_pour_postuler{
+	font-size:14px;
+	padding-left:20px;
+}
+
+#colonne_gauche_offre a{
+	color:#222;
+}
+
+
+
+
+/****BLOC INFOS CLES****/
+
+#info_entreprise {
+	margin-top:45px;
+}
+
+#info_pour_postuler {
+	font-style:italic;
+	font-size:16px;
+	padding-left:24px;
+}
+
+#logo_entreprise_offre{
+	width:80%;	
+	padding-left:25px;
+	padding-top:15px;
+}
+
+
+/****BLOC INFOS POSTE****/
+
+#info_poste {
+	margin-top:100px;
+}
+
+#comptence_technique_offre{
+	width:240px;
+}
+
+.star_competence_offre p {
+	float:left;
+	margin-top:4px;
+	padding-right:14px;
+	width:100px;
+}
+
+#comptence_technique_offre p.glyphicon {
+	color:#66b5c6;
+	float:left;
+	font-size:.7em;
+	width:18px;
+	margin-top:5px;	
+	padding-right:px;	
+}
+
+#map{
+	width:100%;
+	position:relative;
+}
+
+#map img{
+	height:300px;
+	width:98%;
+	padding-top:15px;
+	position:absolute;
+}
+
+
+/****GOOGLE MAP****/
+
+#google_map_offre{
+	width:90%;
+	margin-top: 65px;
+	margin-bottom: -30px;
+}
+
+
+
+/*CENTRE*/
+
+#colonne_centre_offre{
+	background:#ee;
+	margin:0 1px 0;
+	width:590px;	
+}
+
+
+
+
+/*back_link*/
+#back_link_offre {
+	height:21px;
+	width:100%;
+	margin-left:15px;
+	margin-top:30px;
+}
+
+#triangle_left_backlink {
+    float:left;
+    border-top: 5px solid transparent;
+    border-right: 10px solid #66b5c6;
+    border-bottom: 5px solid transparent;
+    width: 15px;
+	margin-right:7px;
+	margin-top:3px
+}
+
+#back_link_offre_p{
+	font-size:17px;
+}
+
+
+
+
+
+/*----------Postuler-----------*/
+
+#postuler_offre {
+	width:100%;
+		
+}
+
+#postuler_offre a{
+	background-image:radial-gradient(#011a29, #1b354a);
+	border-radius: 6px;
+	color:#fff;
+	font-size:12px;
+	letter-spacing:1px;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	display:block;
+	height:18px;
+	width:87px;
+	margin-left:25px;
+	margin-top:10px;
+	padding:3px;
+}
+
+/*#postuler a:focus {
+	background: radial-gradient(#66b5c6, #1b354a);
+	font-size:12px;
+}*/
+
+#postuler_offre a:hover {
+	opacity:.9;
+	transition:.5s;
+}
+	
+/*Favoris Coeur+texte*/
+
+#offre_favoris{
+	margin-left:417px;
+	margin-top:-21px;
+
+}
+
+#texte{
+	color:#66b5c6; 
+	font-size:14px;
+	text-align:center;
+	float:right;
+	padding:4px;	
+}
+
+a.favoris:hover{
+	color:#1f3345;	
+}
+
+#heart_offre {
+    width:20px;
+    height: 18px;
+	float:left;
+	margin-left:-184px;
+    position: relative;
+	left:317px;
+	top:3px;
+}
+#heart_offre:before,
+#heart_offre:after {
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 0;
+    width: 10px;
+    height: 16px;
+    background: #66b5c6;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart_offre:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+/*---------description------------*/
+
+#description_offre {
+	width:100%;
+	margin-top:15px;
+}
+
+
+#description_offre h2 {
+	color:#011a29;
+	font-style:italic;
+	font-size:16px;
+	font-weight:bold;
+	clear:both;
+	display:block;
+	margin-top:15px;
+	padding-left:15px;
+}
+
+.description_paragraphe{
+	font-size:14px;
+	line-height: 18px;
+	text-align: justify;
+	margin:5px 20px;
+}
+
+#description_offre_detail ul {
+	list-style-position: inside;
+	margin-left:37px;
+}
+
+#description_offre_detail li {
+	list-style:circle;	
+}
+
+/*---------navigation------------*/
+
+#nav_page{
+	width:100%;
+	margin-left:118px;
+	margin-top:10px;
+
+}
+
+#nav_page p{
+	float:left;
+	font-size:14px;
+}
+
+#triangle-left {
+    border-top: 5px solid transparent;
+    border-right: 10px solid #66b5c6;
+    border-bottom: 5px solid transparent;
+    width: 15px;
+	margin-right:7px;
+	margin-top:3px
+}
+
+#triangle-right {
+    border-top: 5px solid transparent;
+    border-left: 10px solid #66b5c6;
+    border-bottom: 5px solid transparent;
+	width: 15px;
+	margin-left:-8px;
+	margin-top:3px
+}
+
+#previous{
+	width: 160px;	
+}
+
+#next{
+	width: 132px;
+}
+
+
+

@@ -1,0 +1,161 @@
+/*** PAGE D'INSCRIPTION ***/
+
+#inscription_page_formulaire {
+	color:#011a29;
+	width:805px;
+}
+
+
+/*texte de bienvenue*/
+
+.inline_li{
+	color:#1f3345;
+	display:inline-block;
+}
+
+#inscription_page_formulaire h1{
+	
+	font-size:38px;
+	font-variant:small-caps;
+	text-align:center;
+	display:block;
+	margin-top:16px;	
+}
+
+/*Text d'accroche*/
+
+#bloc_gauche_text{
+	font-size:20px;
+	display:block;
+	margin-top:86px;
+}
+
+/****BLOC GAUCHE PHOTO****/
+
+#bloc_gauche{
+	width:260px;	
+	float:left;
+	margin-left:40px;
+	margin-top:120px;
+}
+
+#bloc_gauche img{
+	width:60px;
+}
+
+
+
+/*****BLOC DROIT FORMULAIRE****/
+
+#bloc_droit_formulaire{
+	height:300px;
+	width:400px;
+	float:right;
+	margin-right:130px;
+	margin-top:40px;
+}
+
+/*Titre du formulaire*/
+
+#titre_formulaire_inscription p{
+	font-size:16px;
+	text-align: center;
+}
+
+/*Données du formulaire*/
+
+
+
+
+#formulaire_inscription_donnees ul{
+	margin-left:12px;
+	margin-top:10px;
+	height:35px;
+}
+
+
+/*champs email*/
+
+#label_email{
+	margin-right:14px;	
+}
+
+#email_form_inscription{
+	width:306px;
+}
+
+
+/*champs mdp*/
+
+#mdp_form_inscription, #mdp_confirm_form_inscription{
+	width:135px;
+}
+
+
+/*legendes*/
+
+
+#legende_saisie_mdp, #legende_confirmation_mdp, #legende_instruction_mdp{
+	font-size:11px;	
+	display:block;
+}
+
+#legende_saisie_mdp{
+	width:100px;
+	margin-left:105px;
+}
+
+#legende_confirmation_mdp{
+	width:100px;
+	margin-left:245px;
+	margin-top:-12px;
+}
+
+#legende_instruction_mdp {
+	font-style:italic;
+	width:210px;
+	margin-left:104px;
+	margin-top:4px;
+}
+
+
+#acceptation  {
+}
+
+
+
+#legende_saisie_mdp{
+}
+
+/*span*/
+#formulaire_inscription_donnees span{
+	color:red;	
+}
+
+
+/*acceptation des conditions*/
+
+#acceptation p{
+	color:#1f3345;
+	font-size:12px;
+	margin-left:18px;
+	margin-top:-16px;	
+}
+
+#acceptation a{
+	color:#1f3345;
+	text-decoration:none;
+}
+
+#acceptation a:hover{
+	color:#66b5c6;
+	text-decoration:none;
+}
+
+/*-----formulaire-----*/
+
+
+
+
+
+

@@ -1,0 +1,635 @@
+
+/***************************************************
+*				PAGE ACTUALITES:				   *
+***************************************************/
+
+.titre {
+	text-transform: uppercase;
+	font-size: 3.0em;
+	/*color: #b80d2f;*/
+	color: #c0392b;	
+	font-weight:700;
+	text-align:left;
+  	padding:10px;
+  	padding-bottom: 15px;
+  	position:relative;
+}
+.titre::after {
+	content:"";
+	display:block;
+	width:60%;
+	/*border-bottom: 10px solid rgba(184,13,47,0.5);*/
+	border-bottom: 10px solid rgb(192, 57, 43);
+	right:0;
+	padding-top:5px;
+	padding-bottom:10px;
+	position:absolute;
+}
+#content .media-heading {
+	font-size:1.0em;
+	font-weight:700;
+	letter-spacing:2px;
+}
+#content .media-body p {
+	font-size:0.9em;
+	text-align:justify;
+}
+#content .media {
+	padding-top:15px;
+	padding-bottom: 10px;
+}
+
+/***************************************************
+*				PAGE DEPOSER UN PROJET:				   *
+***************************************************/
+#banner {
+	width:100%;
+	height:300px;
+	background: url(../img/workef.jpg) no-repeat top center;
+	background-size: cover;
+	opacity:0.7;
+	position: relative;
+	z-index:-1;
+	top:-50px;
+}
+
+
+.annonce {
+	font-weight:700;
+	line-height:30px;
+	font-size:1.0em;
+	margin-top:20px;
+}
+.annonce span{
+	text-transform:uppercase;
+	font-size:1.1em;
+	color:#0db896;
+	line-height:22px;
+	font-style:italic;
+}
+/*#content h2 {
+	font-weight:700;
+	line-height:22px;
+	font-size:0.9em;
+	padding:10px;
+	*/
+}
+.texte_projet p{
+	padding:10px;
+	letter-spacing:2px;
+	line-height:22px;
+	font-size:1.1em;
+	text-align:justify;
+}
+#formulaire {
+	margin-top:10px;
+	padding: 10px
+
+}
+#formulaire label {
+	padding-bottom: 5px;
+	padding-top:10px;
+}
+#formulaire .help-block {
+	font-size:0.8em;
+	color:#000;
+	margin-top:-5px;
+	font-style:italic;
+}
+#fichier input[type=file]{
+	padding:10px;
+	background:rgba(15, 208, 169,0.4);
+}
+
+
+/***************************************************
+*				PAGE DEPOSER UN OFFRE:				   *
+***************************************************/
+#banner_emploi {
+	width:100%;
+	height:300px;
+	background: url(../img/workeeeg.jpg) no-repeat top center;
+	background-size: cover;
+	opacity:0.7;
+	position: relative;
+	z-index:-1;
+	top:-50px;
+}
+/***************************************************
+*				PAGE ALUMNI:				   *
+***************************************************/
+#filtres {
+	display:inline-block;
+}
+#nav_filtre {
+	margin-top:20px;
+}
+#display_profil {
+	margin-top:25px;
+}
+#main .content_alumni {
+	width: 75%;
+}
+#main .sidebar_alumni {
+	width:15%;
+  	position: absolute;
+  	top: 123px;
+ 	right: -20px;
+}
+
+#display_profil img {
+  width: 100%;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+#display_profil img:hover {
+  width: 95%
+}
+
+
+/*#display_profil .row {
+	margin:10px;
+}*/
+
+.alumni_vignette {
+	height:400px;
+	padding-bottom:15px;
+	margin-bottom: 30px;
+}
+
+.vignette {
+	font-size:1.8em;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:10px;
+	display:inline-block;
+	background:rgba(52, 152, 219, 0.8);
+	width:100%;
+	color:#fff;
+}
+.alumni_vignette p{
+	padding:15px 10px;
+
+}
+
+.alumni_vignette .glyphicon-ok {
+	color:#2c3e50;
+}
+.glyphicon-ok, .alumni_fav {
+	float:left;
+}
+.alumni_fav {
+	display:inline-block;
+	float:left;
+}
+.glyphicon-ok {
+	padding-right:5px;
+}
+
+
+.divider {
+	width:50%;
+	text-align: center;
+	position:relative;
+	margin: 15px auto 40px;
+}
+.divider a {
+	display:inline-block;
+	text-transform:uppercase;
+	font-size:1.9em;
+	text-decoration:none;
+	color:#e74c3c;
+}
+.divider::before{
+	content:''; 
+  	display:block; margin:-25px auto 0;
+  	width:100%;
+  	border-bottom:1px solid #e74c3c;
+  	box-shadow:0 0 2px #e74c3c;
+	position:absolute;
+	top: 55px;
+}
+.divider::before {
+	right:2px;
+}
+.divider::after {
+	left:2px;
+}
+
+.selection {
+	width:25%;
+	padding: 3px;
+  	margin-top: 10px;
+  	border-radius: 4px;
+  	margin-left: 4px;
+} 
+
+
+
+
+
+/***************************************************
+*				POPUP DE CONNEXION:				   *
+***************************************************/
+
+#popup_connexion {
+	width:800px;
+	height:420px;
+	margin:250px auto;
+	border-radius: 4px;
+  	box-shadow: 0 0 29px #cdd3da;
+}
+#popup_body {
+	background:rgba(255,255,255,0.3);
+}
+#popup_left {
+	width:220px;
+	height:420px;
+	background:#0db896;
+	float:left;
+}
+#popup_right {
+	width:550px;
+	height:420px;
+	background:#fff;
+	float:left;
+	padding-left:20px;
+}
+#popup_title {
+	text-align:center;
+	font-size:2em;
+	text-transform: uppercase;
+	color: #0db896;
+	padding-top: 25px;
+}
+#popup_right > p {
+	text-align:center;
+	font-size:1.2em;
+	padding-top:20px;
+	padding-bottom:15px;
+}
+.popup_checkbox {
+	padding-left: 78px;
+}
+
+.popup_form  {
+	padding-top:25px;
+	position:relative;
+	left:-60px;
+}
+.popup_submit  {
+	padding-top:25px;
+	float:right;
+	padding-right:15px;
+}
+#popup_button {
+	background: linear-gradient( to left, #0DCAA6, #0db896);
+	color:#fff;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	font-weight:400;
+}
+
+
+
+
+/***************************************************
+*				PAGE DES FORMATEURS:				   *
+***************************************************/
+
+#banner_formateurs {
+	width:100%;
+	height:300px;
+	background: url(../img/guide.jpg) no-repeat top center;
+	background-size: cover;
+	position: relative;
+	z-index:-1;
+	top:-50px;
+}
+
+#cadre_formateur img {
+  -webkit-filter: brightness(100%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+#cadre_formateur img:hover {
+  -webkit-filter: brightness(85%);
+}
+
+/***************************************************
+*					ANCHOR			   *
+***************************************************/
+#main #anchor{
+	width:125px;
+	height:50px;
+	background:#000;
+	position: absolute;
+	color:#fff;
+	bottom: 0px;
+	right: 0px;
+	padding: 15px;
+	padding-top:20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#anchor::before {
+	content: "";
+	position: fixed;
+	top: 6px;
+	right: 62px;
+	border-style: solid;
+	border-width: 5px;
+	border-color:  transparent transparent #fff;
+}
+
+
+/***************************************************
+*					PAGE ENSEIGNEMENTS			   *
+***************************************************/
+
+#tabs {
+	margin: 100px auto;
+	width: 100%;
+}
+
+#tabs a {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	width: 20%;
+	text-align: center;
+	background: #eee;
+	text-decoration:none;
+}
+#tabs > ul {
+	overflow: hidden;
+}
+#tabs > div {
+	border: 1px solid #eee;
+	padding-top:10px;
+	padding-left:10px;
+}
+
+#tabs h2 {
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-top: 10px;
+}
+#tabs p {
+	margin-bottom: 10px;
+	line-height: 22px;
+	color: #444;
+}
+
+/*** Ce qui va changer en js ***/
+#tabhtml a:focus {
+	background: #16a085;
+}
+#tabjava a:focus {
+	background: #2980b9;
+}
+#tabphp a:focus {
+	background: #8e44ad;
+}
+#tabautre a:focus {
+	background: #d35400;
+}
+#tbaprojet a:focus {
+	background: #27ae60;
+}
+
+#tabhtml a:focus,
+#tabjava a:focus,
+#tabphp a:focus,
+#tabautre a:focus,
+#tbaprojet a:focus {
+	text-decoration:none;
+	color:#fff;
+}
+
+#banner_enseignement {
+	width:100%;
+	height:300px;
+	background: url(../img/workd.jpg) no-repeat top center;
+	background-size: cover;
+	position: relative;
+	z-index:-1;
+	top:-50px;
+}
+.programme_list {
+	position:relative;
+	padding-left:25px;
+	padding-bottom:5px;
+}
+.programme_list::before {
+	content:"::::";
+	position:absolute;
+	left:5px;
+}
+.titre_d {
+	font-weight:700;
+	line-height:22px;
+	font-size:0.9em;
+	position:relative;
+	padding-left:20px;
+	padding-right:10px;
+}
+.titre_d::before {
+	content:"<";
+	font-size:1.6em;
+	position:absolute;
+	left:-5px;
+ 	top: -3px;
+}
+.titre_d::after {
+	content:">";
+	font-size:1.6em;
+	position:absolute;
+	padding-left:10px;
+  	top: -3px;
+
+}
+.subtitle {
+	font-size:0.9em;
+	padding-left:10px;
+	padding-top:10px;
+}
+.subtitle span {
+	font-weight:700;
+	font-style: italic;
+}
+.cadron {
+  margin-top: 25px;
+}
+#cadron {
+	margin-left:70px;
+}
+#img_cours_projet {
+	float:right;
+}
+/***************************************************
+*					PAGE  OFFRES: 				   *
+***************************************************/
+.grid_offre {
+	width:100%;
+	position:relative;
+	margin-top:25px;
+	margin-bottom:-6px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:30px;
+	/*background:rgba(191,225,255,0.3);*/
+	background:#f5f5f5;
+	border-radius:2px;
+}
+.grid_description{
+	margin-bottom:5px;
+	width:100%;
+}
+.grid_description p{
+	padding-top:10px;
+}
+.grid_offre img{
+	padding-right:20px;
+	padding-top:20px;
+	float:left;
+}
+.grid_offre p, .grid_offre span{
+	padding:10px;
+	font-size:1.1em;
+}
+.grid_offre span {
+	font-weight:700;
+}
+.grid_offre a {
+	text-decoration:none;
+	color:#67AAE5;
+}	
+.entete p{
+	display:inline-block;
+}
+.grid_offre h3{
+	font-size:1.4em;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding-bottom:10px;
+}
+.label-warning {
+	margin-left:10px;
+}
+.grid_offre::before {
+	content:"";
+	width:100%;
+	float:right;
+	height:3px; 
+	background:#67AAE5;
+	opacity:0.8;
+	position:absolute;
+	top:-12px;
+	left:0;
+}
+.grid_offers_search {
+	width:38%;
+	border:none;
+	background:#fff;
+	margin: 10px 2px;
+	height:30px;
+}
+#grid_offers_form {
+	width:100%;
+	background:#67AAE5;
+	margin-top:20px;
+	height:50px;
+}
+#grid_offers_form form{
+	margin-left:15px;
+}
+#grid_offers_form form p {
+	display: inline-block;
+	color:#fff;
+	margin-left:15px;
+	margin-right:15px;
+	font-size:1.1em;
+}
+.infos_offre {
+	width:100%;
+}
+.infos_offre p{
+	width:33%;
+	display:inline-block;
+	font-size:0.9em;
+}
+.infos_offre span {
+	font-weight:700;
+}
+
+/* Mon compte */
+#mon-compte {
+	background: #fff;
+	border-radius: 0 0 3px 3px;
+	color: #1f3345;
+	padding: 0 32px 0 12px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 28px;
+	margin-left: 30px;
+	float:right;
+	position: relative;
+}
+#mon-compte a{
+	text-decoration: none;
+}
+#mon-compte::before {
+	content: "";
+	position: absolute;
+	top: 11px;
+	right: 11px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #1f3345 transparent transparent;
+}
+.nav_inscription a:hover,
+.nav_inscription > li:hover  {
+	background: #fff;
+}
+
+.nav_inscription > li {
+	float: left;
+	text-align: center;
+	margin: 0;
+}
+
+.nav_inscription > li:hover .subnav {
+	display: block;
+	background-color: #fff;
+}
+
+.subnav_incription {
+	display: none;
+	position: absolute;
+	text-align: left;
+	min-width: 12em;
+	z-index: 10;
+}
+/***************************************/
+#banner_accueil {
+	width:100%;
+	height:300px;
+	background: url(../img/accueil.jpg) no-repeat top center;
+	background-size: cover;
+	position: relative;
+	z-index:-1;
+	top:-50px;
+}
+/*********************************************/

@@ -1,0 +1,31 @@
+/* Page Contact */
+
+#contact > div {
+	margin-bottom: 40px;
+}
+
+#contact-ecole {
+	margin-top: 40px;
+}
+
+#contact-ecole h1,
+#contact-admin h1 {
+	color: #66b5c6;
+	font-size: 18px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+#contact-ecole p {
+	margin-bottom: 8px;
+}
+
+#contact-ecole address {
+	float: left;
+	margin-right: 20px;
+}
+
+#contact-admin label,
+#contact-admin button {
+	margin: 10px 0 5px 0;
+}

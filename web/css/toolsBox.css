@@ -1,0 +1,143 @@
+
+/*** PAGE BOITE A OUTILS ***/
+
+/*.titre est une classe définie dans base_ingrid.css*/
+
+
+/*****NAVIGATION*****/
+
+#toolsBox_nav li{
+	display:inline-block;
+	margin:50px 5px 50px;
+}
+
+
+/*****RUBRIQUES*****/
+
+.toolsBox_topics{
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px #1f3345;
+	
+	display: inline-block;
+	width:40%;
+	margin-left:60px;
+	margin-bottom:30px;
+	vertical-align: top;
+}
+
+/*RUBRIQUE*/
+
+.toolsBox_topic {
+	width:100%;
+	margin:2px;
+	padding:10px 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*Titre de la rubrique*/
+
+.toolsBox_topic h2{
+	border-radius:3px;
+	color:#66b5c6;
+	font-size:20px;
+	font-weight:bold;
+	text-shadow:3px 1px 1px #eee;
+	
+	margin-bottom:5px;
+	padding:2px;
+	text-align: right;
+}
+
+/*Image de la rubrique*/
+
+.img_topic{
+	border-radius:3px;
+	box-shadow: 3px 3px 3px grey;
+
+	width:120px;
+	margin-left: 60%;
+}
+
+.img_topic_first{
+	width:100px;
+	filter: none;
+	-webkit-filter: none;
+	-moz-filter: none;
+	-ms-filter: none;
+	-o-filter: none;
+	
+}
+
+.img_topic_first:hover{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+}
+
+
+/*Liens de la rubrique*/
+
+.toolsBox_links{
+	width:320px;
+	margin-left:15px;
+	padding:5px;
+	text-align: left;
+}
+
+/*image du lien*/
+
+.img_l_topic_link{
+	border:none;
+	width:150px;
+	vertical-align: text-bottom;
+}
+
+.img_s_topic_link{
+	border:none;
+	width:75px;
+	vertical-align: text-bottom;
+}
+
+
+/*Lien*/
+
+.toolsBox_links p{
+	margin-top:6px;	
+}
+
+.toolsBox_links a{
+	color:#66b5c6;	
+	font-style: italic;
+}
+
+.toolsBox_links a:hover{
+	color:#1f3345;
+	text-decoration: none;
+	
+}
+
+
+.date_link {
+	background-image:-webkit-linear-gradient(top, #66b5c6 0%, #fff 100%);
+   	background-image: linear-gradient(to bottom, #66b5c6 0%, #fff 100%);
+	border-radius: 2px;
+	font-style:normal;
+	font-size: .9em;
+	font-weight:normal;
+
+	width:312px;
+	padding:5px 5px 5px;
+}
+
+.titre_link{
+	font-weight:bold;
+	font-style:italic;
+}
+
+.description_link{
+	margin-bottom: 45px;
+	text-align: justify;
+}

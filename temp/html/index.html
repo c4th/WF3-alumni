@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>WebForce 3</title>
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<header id="header">
+			<div class="container">
+				<div id="logo"></div>
+				<nav id="nav-bar">
+
+					<ul class="nav">
+						<li><a href="index.php"><span class="glyphicon glyphicon-home"></span></a></li>
+
+						<li><a href="#">La formation</a>			
+							<ul class="subnav">
+								<li><a href="enseignements.php">Les enseignements</a></li>
+								<li><a href="formateurs.php">Les formateurs</a></li>
+								<li><a href="projets_realises.php">Les projets réalisés</a></li>
+								<li><a href="depot_projet.php">Proposer un projet</a></li>
+							</ul>						
+						</li>
+					
+						<li><a href="#">Actualités</a></li>
+						
+						<li><a href="#">Agenda</a></li>
+						<li><a href="#">Annuaires</a>			
+							<ul class="subnav">
+								<li><a href="alumni_mapping.php">Alumni mapping</a></li>
+								<li><a href="annuaire_etudiants.php">Anciens étudiants</a></li>
+								<li><a href="annuaire_entreprises.php">Entreprises</a></li>
+							</ul>
+						</li>	
+						<li><a href="#">Offres d'emploi</a>			
+							<ul class="subnav">
+								<li><a href="voir_offre.php">Voir les offres</a></li>
+								<li><a href="depot_offre.php">Déposer une offre</a></li>
+							</ul>
+
+						</li>
+						<li><a href="boite_a_outils.php">Boite à outils</a></li>
+						<li><a href="forum.php">Forum</a></li>
+						<li><a href="contact.php">Contact</a></li>
+						
+					</ul><!-- .nav -->
+				</nav><!-- #nav-bar -->
+			</div><!-- .container -->
+		</header>
+
+		<main id="main" class="container">
+			<div id="content">
+
+				<!-- VOTRE CONTENU A PARTIR D'ICI -->
+				<div id="inscription-box">
+					<div id="inscription-etudiants" class="encart">
+						<h1>&lt;Etudiants&gt;</h1>
+						<hr>
+						<ul>
+							<li>Partagez vos expériences</li>
+							<li>Mettez à jour votre profil</li>
+							<li>Developpez votre réseau</li>
+							<li>Participez à la vie du réseau</li>
+						</ul>
+						<button><a href="#">S'inscrire</a></button>
+					</div>
+					<div id="inscription-entreprises" class="encart">
+						<h1>&lt;Entreprises&gt;</h1>
+						<hr>
+						<ul>
+							<li>Présentez votre activité</li>
+							<li>Déposez des offres d’emploi</li>
+							<li>Trouvez des nouveaux talents</li>
+							<li>Accédez à la CVthèque</li>
+						</ul>
+						<button><a href="#">Créer un compte</a></button>
+					</div>
+					<div id="identification" class="encart">
+						<h1>&lt;Déjà inscrit ?&gt;</h1>
+						<hr>
+						<form id="form-accueil" method="post" action="">
+							<input type="text" name="email" placeholder="E-mail">
+							<input type="password" name="password" placeholder="Mot de passe">
+							<a href="#">Mot de passe oublié ?</a>
+							<button type="submit">Me connecter</button>
+						</form>
+					</div>
+				</div><!-- #inscription-box -->
+
+				<div id="last-news">
+					<h1>Dernières Actualités</h1>
+
+					<div class="news">
+						<div class="news-photo"></div>
+						<h2>Coucou</h2>					
+						<p class="news-date">21 mai 2015</p>
+						<p class="news-abstract">I love chocolate bar caramels donut gummi bears marzipan sweet. I love oat cake apple pie macaroon dragée apple pie carrot cake chocolate bar marzipan. Sweet cake I love... <a href="#" >[ En savoir plus ]</a></p>
+					</div><!-- #news -->
+
+					<div class="news">
+						<div class="news-photo"></div>
+						<h2>Coucou</h2>			
+						<p class="news-date">21 mai 2015</p>
+						<p class="news-abstract">I love chocolate bar caramels donut gummi bears marzipan sweet. I love oat cake apple pie macaroon dragée apple pie carrot cake chocolate bar marzipan. Sweet cake I love... <a href="#" >[ En savoir plus ]</a></p>
+					</div><!-- #news -->
+
+					<div class="news">
+						<div class="news-photo"></div>
+						<h2>Coucou</h2>					
+						<p class="news-date">21 mai 2015</p>
+						<p class="news-abstract">I love chocolate bar caramels donut gummi bears marzipan sweet. I love oat cake apple pie macaroon dragée apple pie carrot cake chocolate bar marzipan. Sweet cake I love... <a href="#" >[ En savoir plus ]</a></p>
+					</div><!-- #news -->
+
+				</div><!-- #last-news -->
+
+			</div><!-- #content -->
+
+			<div id="sidebar">
+
+				<div class="sidebar-box">
+					<h1><span class="glyphicon glyphicon-calendar"></span> agenda</h1>
+					<p>coucou</p>
+				</div><!-- .sidebar-box -->
+
+				<div class="sidebar-box">
+					<h1><span class="glyphicon glyphicon-user"></span>derniers inscrits</h1>
+					<div id="last-members-box">
+						<a href="#"><img src="../img/default_avatar_f.jpg" title="Prénom Nom"></a>
+						<a href="#"><img src="../img/default_avatar_f.jpg" title="Prénom Nom"></a>
+						<a href="#"><img src="../img/default_avatar_m.jpg" title="Prénom Nom"></a>
+						<a href="#"><img src="../img/default_avatar_m.jpg" title="Prénom Nom"></a>
+						<a href="#"><img src="../img/default_avatar_f.jpg" title="Prénom Nom"></a>
+						<a href="#"><img src="../img/default_avatar_m.jpg" title="Prénom Nom"></a>
+						<a href="#"><img src="../img/default_avatar_f.jpg" title="Prénom Nom"></a>
+						<a href="#"><img src="../img/default_avatar_f.jpg" title="Prénom Nom"></a>
+						<a href="#"><img src="../img/default_avatar_m.jpg" title="Prénom Nom"></a>
+						<a href="#"><img src="../img/default_avatar_f.jpg" title="Prénom Nom"></a>
+					</div><!-- #last-members-box -->
+				</div><!-- .sidebar-box -->
+
+				<div class="sidebar-box">
+					<h1><span class="glyphicon glyphicon-briefcase"></span>dernières offres</h1>
+
+					<div class="sidebar-offres">
+						<div class="offres-infos">
+							<p class="tag tag-stage">Stage</p>
+							<p class="offres-date">21 mai 2015</p>
+						</div>
+						<h2>Titre du poste</h2>
+						<p>Entreprise, Ville</p>
+						<a href="#" >[ En savoir plus ]</a>
+					</div><!-- #sidebar-offres -->
+
+					<div class="sidebar-offres">
+						<div class="offres-infos">
+							<p class="tag tag-cdi">CDI</p>
+							<p class="offres-date">21 mai 2015</p>
+						</div>
+						<h2>Titre du poste</h2>
+						<p>Entreprise, Ville</p>
+						<a href="#" >[ En savoir plus ]</a>
+					</div><!-- #sidebar-offres -->
+
+					<div class="sidebar-offres">
+						<div class="offres-infos">
+							<p class="tag tag-cdd">CDD</p>
+							<p class="offres-date">21 mai 2015</p>
+						</div>
+						<h2>Titre du poste</h2>
+						<p>Entreprise, Ville</p>
+						<a href="#" >[ En savoir plus ]</a>
+					</div><!-- #sidebar-offres -->
+
+					<div class="sidebar-offres">
+						<div class="offres-infos">
+							<p class="tag tag-freelance">Freelance</p>
+							<p class="offres-date">21 septembre 2015</p>
+						</div>
+						<h2>Titre du poste</h2>
+						<p>Entreprise, Ville</p>
+						<a href="#" >[ En savoir plus ]</a>
+					</div><!-- #sidebar-offres -->
+
+				</div><!-- #sidebar-box -->
+
+			</div><!-- #sidebar -->
+		</main>
+
+
+
+		<footer id="footer">
+			<div id="footer-links" class="clearfix">
+			
+				<div id="sitemap">
+					<h1>Accès rapide</h1>
+					<ul class="sitemap-box">
+						<li>La formation
+							<ul>
+								<li><span class="glyphicon glyphicon-option-vertical"></span><a href="#">Les enseignement</a></li>
+								<li><span class="glyphicon glyphicon-option-vertical"></span><a href="#">Les formateurs</a></li>
+								<li><span class="glyphicon glyphicon-option-vertical"></span><a href="#">Les projets réalisés</a></li>
+								<li><span class="glyphicon glyphicon-option-vertical"></span><a href="#">Proposer un projet</a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="sitemap-box">
+						<li>Annuaire
+							<ul>
+								<li><span class="glyphicon glyphicon-option-vertical"></span><a href="#">Alumni mapping</a></li>
+								<li><span class="glyphicon glyphicon-option-vertical"></span><a href="#">Anciens étudiants</a></li>
+								<li><span class="glyphicon glyphicon-option-vertical"></span><a href="#">Entreprises</a></li>
+							</ul>						
+						</li>
+					</ul>
+
+					<ul class="sitemap-box">
+						<li>Offres d'emploi
+							<ul>
+								<li><span class="glyphicon glyphicon-option-vertical"></span><a href="#">Voir les offres</a></li>
+								<li><span class="glyphicon glyphicon-option-vertical"></span><a href="#">Déposer une offre</a></li>
+							</ul>						
+						</li>
+					</ul>
+
+					<ul class="sitemap-box">
+						<ul>
+							<li><a href="#">Actualités</a></li>
+							<li><a href="#">Agenda</a></li>
+							<li><a href="#">Boîte à outils</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+									
+				</div><!-- #sitemap -->
+
+				<div id="socialmedia">				
+						<h1>Réseaux sociaux</h1>
+						<a id="linkedin" title="Retrouvez WebForce3 sur Linkedin" href="#">linkedin</a>
+						<a id="facebook" title="Retrouvez WebForce3 sur Facebook" href="http://fr-fr.facebook.com/webforce3">Facebook</a>
+						<a id="twitter" title="Retrouvez WebForce3 sur Twitter" href="http://twitter.com/_webforce3">Twitter</a>
+						<a  id="youtube" title="Retrouvez WebForce3 sur Youtube" href="http://www.wf3.fr/">Youtube</a>	
+				</div><!-- #socialmedia -->
+
+			</div><!-- #footer-links -->
+
+			<div id="cnil" class="container">
+				<a href="#">Mentions légales</a>
+				<a href="#">Conditions d'utilisation</a>
+				<a href="#">F.A.Q.</a>
+			</div>
+		</footer>
+		
+		<script src="../js/jquery.js"></script>
+		<script src="../js/jquery-ui.min.js"></script>
+		<script src="../js/app.js"></script>
+	</body>
+</html>

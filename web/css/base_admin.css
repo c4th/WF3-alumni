@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import "reset.css";
+
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+}
+.clearfix::after {
+	clear: both;
+}
+
+body {
+	font-family: "Roboto";
+	font-size: .9em;
+}
+
+#form-connexion {
+	margin-top: 100px;
+}
+
+table thead {
+	text-transform: uppercase;
+	font-weight: 700;
+}

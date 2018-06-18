@@ -1,0 +1,39 @@
+
+/* Page Projets réalises */
+
+#projets-realises #grid {
+  margin: 0 15px 0 15px;
+}
+
+
+#projets-realises h2 {
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+#projets-realises h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#projets-realises .btn {
+  margin: 10px 0 10px auto;
+}
+
+.projet-box {
+  height: 400px;
+}
+
+#projets-realises .thumbnail {
+  transition: .3s ease;
+}
+
+#projets-realises .thumbnail:hover {
+  opacity: .8;
+  transition: .3s ease;
+}
+

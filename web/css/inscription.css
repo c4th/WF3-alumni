@@ -1,0 +1,279 @@
+/*** PAGE D'INSCRIPTION ***/
+
+#inscription_en_tete{
+	color:#011a29;
+	width:95%;
+}
+
+/*.titre est une classe définie dans base_ingrid.css*/
+
+
+/*texte de présentation*/
+#inscription_texte_presentation{
+	font-size:1.4em;
+	
+	display:block;
+	margin-top:10%;
+	margin-bottom:7%;
+}
+
+/*Message d'erreurs*/
+.erreur_saisie{
+	background:linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%);
+	border: 1px solid red;
+	border-radius:5px;
+	color: #a94442;
+  	
+  	height:30px;
+	width:420px;
+	padding:5px;
+}
+
+.erreur_saisie span{
+	background:red;
+	border:solid 1px red;
+	border-radius:18px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	
+	height:18px;
+	width:18px;
+	display:inline-block;
+	margin-right:10px;
+}
+
+/*Message de validation*/
+.validation_saisie{
+	background:linear-gradient(to bottom,#FFF 0,#b7dbb9 100%);
+	border:1px solid #3c763d;
+	border-radius:5px;
+	color:#3c763d;
+	
+	height:30px;
+	width:420px;
+	padding:5px;
+}
+
+.validation_saisie span{
+	background:#3c763d;
+	border-radius:18px;
+	color:#fff;
+	font-family:;
+	font-weight:bold;
+	text-align:center;
+	
+	height:18px;
+	width:18px;
+	display:inline-block;
+	margin-right:10px;
+	padding-top:2px;
+	padding-right:2px;
+}
+
+
+/*
+*BLOC GAUCHE PHOTO
+*/
+
+#inscription_bloc_gauche{
+	width:29%;	
+	float:left;
+	margin-left:4%;
+	padding-top:15%;
+}
+
+#inscription_bloc_gauche img{
+	border-radius:8px;	
+	width:60px;
+	padding:1px;
+	transition:.3s;
+}
+
+#inscription_bloc_gauche img:hover{
+	opacity:.8;
+	transition:.3s;
+}
+
+
+/*
+*BLOC DOIT FORMULAIRE
+*/
+
+#inscription_bloc_droit{
+	border:1px solid #ccc;
+	border-radius:5px;
+
+	width:50%;	
+	float:left;
+	margin-left:4%;
+	margin-top:4%;
+}
+
+#inscription_bloc_droit_header{
+	background:linear-gradient(to top,#fff 0,#eee 100%);
+	border-bottom:1px solid #ccc;
+	font-size:1.2em;
+	text-align: center;
+	
+	padding:3% 0 3% 0;
+}
+
+/*span*/
+#inscription_bloc_droit_formulaire span{
+	color:red;	
+}
+
+#inscription_bloc_droit_formulaire ul{
+	width:100%;
+	padding:10px;
+}
+
+#inscription_bloc_droit_formulaire li{
+	color:#1f3345;
+	display:inline-block;
+}
+
+#inscription_bloc_droit_formulaire input{
+	border:1px solid #ccc;
+	border-radius:3px;
+	padding-left:5px;
+	padding-top:2px;
+	height:30px;
+}
+
+#inscription_bloc_droit_formulaire input:focus{
+	border:1px solid #6babea;	
+	box-shadow: 0px 0px 10px 1px rgba(182, 253, 253, 0.75);
+}
+
+/*prenom*/
+#inscription_label_prenom{
+	width:14%;
+}
+
+#inscription_input_prenom{
+	width:35%;
+}
+
+#inscription_input_prenom input{
+	width:100%;
+}
+
+
+/*nom*/
+#inscription_label_nom{
+	width:10%;
+	margin-left:7px;
+	
+}
+
+#inscription_input_nom{
+	width:36%;
+}
+
+#inscription_input_nom input{
+	width:100%;
+}
+
+
+/*email*/
+#inscription_label_email{
+	width:14%;
+}
+
+#inscription_input_email{
+	width:84%;
+}
+
+#inscription_input_email input{
+	width:100%;
+}
+
+
+/*Mot de passe*/
+#inscription_label_mdp{
+	width:22%;
+}
+
+#inscription_input_mdp{
+	width:37%;
+}
+
+#inscription_input_mdp2{
+	width:37%;
+	margin-left:5px;
+}
+
+#inscription_input_mdp input{
+	width:100%;
+}
+
+#inscription_input_mdp2 input{
+	width:100%;
+}
+
+/*Légendes*/
+#inscription_legende_saisie_mdp, #inscription_legende_confirmation_mdp, #inscription_legende_instruction_mdp{
+	font-size:11px;	
+	display:block;
+}
+
+#inscription_legende_saisie_mdp{
+	width:100px;
+	margin-left:108px;
+}
+
+#inscription_legende_confirmation_mdp{
+	width:100px;
+	margin-left:271px;
+	margin-top:-12px;
+}
+
+#inscription_legende_instruction_mdp {
+	font-style:italic;
+	width:268px;
+	margin-left:108px;
+	margin-top:4px;
+}
+
+#inscription_legende_saisie_mdp{
+}
+
+
+/*acceptation des conditions*/
+#acceptation p{
+	color:#1f3345;
+	font-size:12px;
+	margin-left:18px;
+	margin-top:-30px;	
+}
+
+#acceptation a{
+	color:#1f3345;
+	text-decoration:none;
+}
+
+#acceptation a:hover{
+	color:#66b5c6;
+	text-decoration:none;
+}
+
+
+/*Validation du formulaire*/
+.inscription_bloc_droit_footer{
+	background:#5bc0de;
+	border:1px solid #269abc;
+	border-radius:2px;
+	color:#fff;
+	font-size:1.1em;
+
+	width:100%;
+	margin-top:15px;
+	padding:2% 0 2% 0;
+}
+
+.inscription_bloc_droit_footer:hover{
+	opacity:.7;
+	transition:.5s;
+}
